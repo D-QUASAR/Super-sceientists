@@ -542,8 +542,8 @@ Navbar
 ===============
 */
 nav {
-  background: var(--clr-white);
-  box-shadow: var(--light-shadow);
+  background: black;
+  
 }
 .nav-header {
   display: flex;
@@ -553,19 +553,19 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: aquamarine;
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
 }
 .nav-toggle:hover {
-  color: var(--clr-primary-1);
+  color: gold;
   transform: rotate(90deg);
 }
 
 .links a {
-  color: var(--clr-grey-3);
+  color: aquamarine;
   font-size: 1rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -574,8 +574,8 @@ nav {
   transition: var(--transition);
 }
 .links a:hover {
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  background: black;
+  color: gold;
   padding-left: 1.5rem;
 }
 .social-icons {
@@ -624,11 +624,11 @@ nav {
   }
   .social-icons a {
     margin: 0 0.5rem;
-    color: var(--clr-primary-5);
+    color: aquamarine;
     transition: var(--transition);
   }
   .social-icons a:hover {
-    color: var(--clr-primary-7);
+    color: gold;
   }
 }
 
