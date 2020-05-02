@@ -140,34 +140,6 @@ label{
     font-size:15px;
     text-transform: capitalize;
 }
-/* 
-=========
-navbar 
-=========
-*/
-
-/*nav*/
-
-nav ul {
-    list-style-type: none;
-    border-top: 6px solid var(--ff-secondary);
-    background-color: black;
-}
-
-
-nav ul li a {
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    font-size: 20px;
-    padding: 15px 25px;
-    color: aquamarine;
-}
-
-nav ul li a:hover {
-    color:gold ;
-
-}
 
 .logo {
     display: flex;
@@ -591,9 +563,7 @@ nav {
   color: var(--clr-primary-1);
   transform: rotate(90deg);
 }
-.logo {
-  height: 40px;
-}
+
 .links a {
   color: var(--clr-grey-3);
   font-size: 1rem;
